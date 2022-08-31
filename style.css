@@ -73,6 +73,8 @@ button{
     justify-content: flex-end;
     flex-direction: row;
     flex: 1;
+    background-color: #3882F6;
+    border-radius: 5px;
 }
 .images{
     width: 300px;
@@ -99,10 +101,36 @@ a{
 }
 #box{
     
-    max-width:400px;
+    max-width:250px;
     display: block;
+    /*border: 1px solid;*/
 }
 #gap{
     padding-right: 200px;
     gap: 70px;
+}
+#dark{
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+}
+.center{
+    text-align: center;
+}
+#wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+#space{
+    padding: 50px;
+}
+.white{
+    border: 1px solid snow;
+}
+#end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
